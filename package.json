@@ -1,0 +1,32 @@
+{
+  "name": "gitx",
+  "version": "0.0.0",
+  "author": {
+    "name": "Futago-za Ryuu",
+    "email": "futagoza.ryuu@gmail.com",
+    "url": "http://futagoza.github.io/"
+  },
+  "homepage": "http://erispa.github.io/gitx",
+  "license": "The MIT License",
+  "description": "An easier and simpler way to use git",
+  "keywords": [
+    "gitx", "git", "libgit2", "nodegit", "explorer", "fs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/erispa/gitx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erispa/gitx/issues"
+  },
+  
+  "main": "index.js",
+  "bin": {
+    "gitx": "bin/gitx"
+  },
+  "dependencies": {
+    "fs-extra": "0.16.3",
+    "uglify-js": "2.4.16",
+    "nodegit": "0.2.7"
+  }
+}
