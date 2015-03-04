@@ -22,12 +22,13 @@
   
   "main": "index.js",
   "bin": {
-    "gitx": "bin/gitx"
+    "gitx": "server.js"
   },
   "dependencies": {
     "fs-extra": "0.16.3",
     "nodegit": "0.2.7",
     "express": "4.12.2",
-    "serve-favicon": "2.2.0"
+    "serve-favicon": "2.2.0",
+    "nomnom": "1.8.1"
   }
 }

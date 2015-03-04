@@ -13,7 +13,7 @@ var FAVICON = join(PUBLIC_DIR, 'favicon.ico');
 function serveIndex ( req, res ) { res.sendFile(INDEX_FILE); }
 
 // express gitx middleware
-function middleware ( options ) {
+module.exports = function ( options ) {
   if ( __toString.call(options) !== '[object Object]' ) {
     options = {};
   }
@@ -32,7 +32,7 @@ function middleware ( options ) {
   require("./components/help")(app, options);
 
   return app;
-}
+};
 
-// export middleware
-module.exports = middleware;
+// export version
+module.exports.VERSION = require("./package.json").version;
