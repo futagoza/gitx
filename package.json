@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "fs-extra": "0.16.3",
-    "uglify-js": "2.4.16",
-    "nodegit": "0.2.7"
+    "nodegit": "0.2.7",
+    "express": "4.12.2",
+    "serve-favicon": "2.2.0"
   }
 }
