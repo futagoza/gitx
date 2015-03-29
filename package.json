@@ -25,8 +25,7 @@
     "gitx": "server.js"
   },
   "dependencies": {
-    "fs-extra": "0.17.0",
-    "chokidar": "1.0.0-rc4",
+    "efe": "0.17.0",
     "node-uuid": "1.4.3",
     "express": "4.12.3",
     "serve-favicon": "2.2.0",
